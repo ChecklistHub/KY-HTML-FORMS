@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<!-- INPUT FIELDS -->
+	<form action="action.php" method="POST" autocomplete="on">
+		<label for="firstName">FirstName:</label><br/>
+		<input type="text" id="firstName" name="FirstName" placeholder="First Name"><br/>
+		<label for="lastName">LastName:</label><br/>
+		<input type="text" id="lastName" name="LastName" placeholder="LastName"><br/>
+		<label for="email">Email:</label><br/>
+		<input type="text" id="email" name="email" placeholder="Email"><br/>
+	</form>
+	<br/><br/><br/><br/><br/><br/>
+	<!-- Radio Buttons -->
+	<form action="action.php" method="POST">
+		<input type="radio" id="html" name="fav_language" value="HTML">
+		<label for="html">HTML</label><br/>
+		<input type="radio" id="css" name="fav_language" value="CSS">
+		<label for="css">CSS</label><br/>
+		<input type="radio" id="html" name="fav_language" value="BootStrap">
+		<label for="bootstrap">BootStrap</label><br/>
+		<input type="radio" id="JavaScript" name="fav_language" value="JavaScript">
+		<label for="javascript">JavaScript</label><br/>
+	</form>
+	<br/><br/><br/><br/><br/><br/>
+	<!-- Checkboxes -->
+	<form action="action.php" method="POST">
+		<input type="checkbox" name="Mercedes" id="benz" value="benz">
+		<label for="benz">Mercedes</label><br/>
+		<input type="checkbox" name="Audi" id="audi" value="Audi">
+		<label for="audi">Audi</label><br/>
+		<input type="checkbox" name="BMW" id="bmw" value="bmw">
+		<label for="bmw">BMW</label><br/>
+		<input type="checkbox" name="Toyota" id="Toyota" value="Toyota">
+		<label for="Toyota">Toyota</label><br/>
+	</form>
+	<br/><br/><br/><br/><br/><br/>
+	<form action="action.php" method="POST" target="_blank" >
+		<input type="submit" id="submit" value="Submit">
+	</form>
+</body>
+</html>  
